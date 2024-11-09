@@ -1,22 +1,22 @@
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="ubuntu-jammy.tgz">
-    <hash type="sha-512">349539faead9a3855753339a48dbfbbc4dab241deaeea2ca26fdfdc20aeae8e0770b97cc3af33fc44312f64d36a848614fb18ae2a591e9f0d302d66823469e47</hash>
-    <hash type="sha-256">45a4faaa295ea0b10d4112103cc0012ce563729901cbeb093a9c17db5860d261</hash>
-    <hash type="sha-1">7dd8389f09c02a2dc8434e12be05ecb532fe0d8c</hash>
-    <hash type="md5">8a362cfff29c89a7aa60b97536f75b3a</hash>
-    <size>431567789</size>
+    <hash type="sha-512">4b387107b9d3e73ade0e3a0cc2f6bbd79fde01b659c38c874285a56f9dfe4676e91b5ad06cd5412bc0848f29b7e0dd5d1a15750c04583de2ebf0d5c01be94eaf</hash>
+    <hash type="sha-256">6e5e215c78997226401028b0077de96ffc3feaa40a7d53efe10cb9dfee9fe182</hash>
+    <hash type="sha-1">23f9cf5f5fef9b1363cd8c156c94ab10d7632b96</hash>
+    <hash type="md5">1d16b10e90f7d9cdd05dcc09673ca567</hash>
+    <size>431654826</size>
     <url>https://storage.googleapis.com/bosh-os-images/ubuntu-jammy/ubuntu-jammy.tgz</url>
-    <version>597.0.0</version>
+    <version>598.0.0</version>
   </file>
   <file name="usn-log.json">
-    <hash type="sha-512">be688838ca8686e5c90689bf2ab585cef1137c999b48c70b92f67a5c34dc15697b5d11c982ed6d71be1e1e7f7b4e0733884aa97c3f7a339a8ed03577cf74be09</hash>
-    <hash type="sha-256">01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b</hash>
-    <hash type="sha-1">adc83b19e793491b1c6ea0fd8b46cd9f32e592fc</hash>
-    <hash type="md5">68b329da9893e34099c7d8ad5cb9c940</hash>
-    <size>1</size>
+    <hash type="sha-512">d3a3973d574f71bb8971c00b26fa630ab6c0d0d6f221545ef566eae6ab220f9137dd50bd80a3162d8706231e3522ec1844a1323383815cddce1524aa906ee635</hash>
+    <hash type="sha-256">77e7d456f7ee0bbd1323e63bde829612fa9f02bca35c5c793cd5e9f8e06fb89f</hash>
+    <hash type="sha-1">eb0165d922f6cbdc8469f069537468b7904dd47b</hash>
+    <hash type="md5">2a49f735cd134a3738a6de61ac087a6d</hash>
+    <size>21256</size>
     <url>https://storage.googleapis.com/bosh-os-images/ubuntu-jammy/usn-log.json</url>
-    <version>597.0.0</version>
+    <version>598.0.0</version>
   </file>
   <generator>metalink-repository-resource/0.0.0</generator>
-  <published>2024-11-04T17:54:18.548482741Z</published>
+  <published>2024-11-09T10:40:04.741929579Z</published>
 </metalink>
