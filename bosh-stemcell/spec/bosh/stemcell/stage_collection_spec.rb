@@ -95,6 +95,7 @@ module Bosh::Stemcell
             :image_install_grub,
             :sbom_create,
             :bosh_package_list,
+            :restore_apt_sources,
           ]
         }
         let(:aws_package_stemcell_stages) {
@@ -126,6 +127,7 @@ module Bosh::Stemcell
             :image_install_grub,
             :sbom_create,
             :bosh_package_list,
+            :restore_apt_sources,
           ]
         }
 
@@ -158,7 +160,8 @@ module Bosh::Stemcell
             :image_create_efi,
             :image_install_grub,
             :sbom_create,
-            :bosh_package_list
+            :bosh_package_list,
+            :restore_apt_sources,
           ]
         }
 
@@ -195,6 +198,7 @@ module Bosh::Stemcell
               :image_install_grub,
               :sbom_create,
               :bosh_package_list,
+              :restore_apt_sources,
             ]
           )
           expect(stage_collection.package_stemcell_stages('qcow2')).to eq(
@@ -226,6 +230,7 @@ module Bosh::Stemcell
               :image_install_grub,
               :sbom_create,
               :bosh_package_list,
+              :restore_apt_sources,
             ]
           )
           expect(stage_collection.package_stemcell_stages('qcow2')).to eq(
@@ -255,6 +260,7 @@ module Bosh::Stemcell
               :image_install_grub,
               :sbom_create,
               :bosh_package_list,
+              :restore_apt_sources,
             ]
           )
           expect(stage_collection.package_stemcell_stages('ovf')).to eq(vmware_package_stemcell_steps)
@@ -279,6 +285,7 @@ module Bosh::Stemcell
             :image_install_grub,
             :sbom_create,
             :bosh_package_list,
+            :restore_apt_sources,
           ]
         }
 
@@ -307,7 +314,8 @@ module Bosh::Stemcell
             :image_create_efi,
             :image_install_grub,
             :sbom_create,
-            :bosh_package_list
+            :bosh_package_list,
+            :restore_apt_sources,
           ]
         }
         let(:package_stemcell_stages) {

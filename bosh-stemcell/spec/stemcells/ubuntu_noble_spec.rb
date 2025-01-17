@@ -35,6 +35,7 @@ describe 'Ubuntu 24.04 stemcell image', stemcell_image: true do
       its(:content) { should match ' cgroup_enable=memory swapaccount=1' }
       its(:content) { should match ' console=ttyS0,115200n8' }
       its(:content) { should match ' earlyprintk=ttyS0 rootdelay=300' }
+      its(:content) { should match ' apparmor=1 security=apparmor' }
 
       it('should set the grub menu password (stig: V-38585)') { expect(subject.content).to match /password_pbkdf2 vcap/ }
       it('should be of mode 600 (stig: V-38583)') { expect(subject).to be_mode(0600) }
@@ -65,6 +66,7 @@ describe 'Ubuntu 24.04 stemcell image', stemcell_image: true do
       its(:content) { should match ' cgroup_enable=memory swapaccount=1' }
       its(:content) { should match ' console=ttyS0,115200n8' }
       its(:content) { should match ' earlyprintk=ttyS0 rootdelay=300' }
+      its(:content) { should match ' apparmor=1 security=apparmor' }
 
       it('should set the grub menu password (stig: V-38585)') { expect(subject.content).to match /password_pbkdf2 vcap/ }
       it('should be of mode 600 (stig: V-38583)') { expect(subject).to be_mode(0600) }
